@@ -4,7 +4,7 @@
 			padding:0;
 		}
 		body{
-			background:rgb(141, 97, 97);
+			background: linear-gradient(rgb(25, 37, 48),rgb(30%, 70%, 0%), rgb(60%, 100%, 0%),red,black,rgb(247, 241, 241));
 		}
 		header, .main, footer{
 			
@@ -13,7 +13,7 @@
 			margin:20px auto;
 		}
 		header nav{
-			background:rgb(36, 41, 117);
+			
 			overflow:hidden; /*desbordarse:oculto*/
 		}
 		header nav ul{
@@ -79,7 +79,7 @@
 		
 		.link{
 		
-			background:rgb(25, 37, 48);
+			background: rgb(25, 37, 48);
 			
 			
 			padding:30px 0px;
@@ -91,13 +91,14 @@
             display:block;
         
             border-radius:4%;
-            box-shadow:7px 7px 10px blue;
-            border: 5px solid rgb(50, 218, 27);
+            box-shadow:15px 15px 15px rgb(0, 195, 255);
+            border: 10px solid rgb(54, 5, 233);
 		}
 		
 		.granlink{
 			font-size:60px;
-            color:rgb(175, 163, 163);
+			color:rgb(175, 163, 163);
+			line-height:59px;   
             
 
 		}
@@ -107,17 +108,28 @@
 		}
 		 
 		.tms{
-			background:rgb(56, 158, 61);
+			background:rgb(77, 230, 230);
 			margin: 0px 150px;
 			padding: 0px 100px;
+		}
+
+		.rmar{
+			font-size: 30px;
+			background: rgb(15, 55, 92);
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+		
 		}
 		.tmsedi{
 			
 			color: black;
+			font-size: 30px;
+			font-family: Arial black, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 		}
 		
 		.tex{
 			font-size:27px;
+			color: rgb(199, 197, 195);
 		}
 		
 		.informacion{
@@ -131,7 +143,15 @@
 		}
 		
 		.informacione{
-			background-color:rgb(25, 37, 48);
+			background: rgb(25, 37, 48);
 			padding: 10px  0px;
-		}
-	
+        }
+        
+        .ios{
+            background: rgb(25, 37, 48);
+
+        }
+.ciencias{
+	font-size: 30px;
+	font-family: Arial black, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
